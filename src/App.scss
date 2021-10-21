@@ -1,0 +1,77 @@
+.App {
+  // position: relative;
+  min-height: 1000px;
+  text-align: center;
+
+  .mainTitle {
+    width: 300px;
+    height: 250px;
+    margin: 100px auto 0 auto;
+    padding-top: 20px;
+    background: no-repeat url('./components/blob-purple.png');
+    background-position: center;
+    background-size: 200%;
+    color: white;
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 200px;
+    font-weight: 500;
+  }
+
+  .SearchBox {
+    margin: 30px;
+  }
+
+  .CardList {
+    margin-bottom: 50px;
+  }
+
+  .custom-shape-divider-top-1634800428 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1634800428 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 141px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-top-1634800428 .shape-fill {
+    fill: #f2d1d1b6;
+  }
+
+  .custom-shape-divider-bottom-1634800922 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1634800922 svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 183px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-bottom-1634800922 .shape-fill {
+    fill: #f7ecec8a;
+  }
+  // 텍스트 그라데이션 코드   D
+  // background: -webkit-linear-gradient(
+  //   rgba(212, 197, 197, 1) 0%,
+  //   rgba(173, 135, 236, 1) 30%
+  // );
+  // background-clip: text;
+  // -webkit-text-fill-color: transparent;
+}
