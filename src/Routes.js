@@ -5,7 +5,7 @@ import App from './App';
 class Routes extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="https://k-cool.github.io/cats-react">
         <Switch>
           <Route exact path="/" component={App} />
         </Switch>
